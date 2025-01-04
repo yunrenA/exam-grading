@@ -1,0 +1,9 @@
+{
+    errdata = "\27[01m\27[K13_class/main.cpp:\27[m\27[K In constructor ‘\27[01m\27[KFibonacci::Fibonacci()\27[m\27[K’:\
+\27[01m\27[K13_class/main.cpp:17:18:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Klist-initializer for non-class type must not be parenthesized\
+   17 |     Fibonacci(): \27[01;35m\27[Kcache({0,1})\27[m\27[K, cached(2) {}\
+      |                  \27[01;35m\27[K^~~~~~~~~~~~\27[m\27[K\
+At global scope:\
+\27[01m\27[Kcc1plus:\27[m\27[K \27[01;36m\27[Knote: \27[m\27[Kunrecognized command-line option ‘\27[01m\27[K-Wno-gnu-line-marker\27[m\27[K’ may have been intended to silence earlier diagnostics\
+"
+}

@@ -1,0 +1,44 @@
+{
+    errdata = "\27[01m\27[K22_class_template/main.cpp:\27[m\27[K In constructor ‘\27[01m\27[KTensor4D<T>::Tensor4D(const unsigned int*, const T*) [with T = int]\27[m\27[K’:\
+\27[01m\27[K22_class_template/main.cpp:13:23:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[K‘\27[01m\27[K*this.Tensor4D<int>::shape[0]\27[m\27[K’ is used uninitialized [\27[01;35m\27[K-Wuninitialized\27[m\27[K]\
+   13 |         size = \27[01;35m\27[Kshape[0]\27[m\27[K * shape[1] * shape[2] * shape[3];\
+      |                \27[01;35m\27[K~~~~~~~^\27[m\27[K\
+\27[01m\27[K22_class_template/main.cpp:13:34:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[K‘\27[01m\27[K*this.Tensor4D<int>::shape[1]\27[m\27[K’ is used uninitialized [\27[01;35m\27[K-Wuninitialized\27[m\27[K]\
+   13 |         size = shape[0] * \27[01;35m\27[Kshape[1]\27[m\27[K * shape[2] * shape[3];\
+      |                           \27[01;35m\27[K~~~~~~~^\27[m\27[K\
+\27[01m\27[K22_class_template/main.cpp:13:45:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[K‘\27[01m\27[K*this.Tensor4D<int>::shape[2]\27[m\27[K’ is used uninitialized [\27[01;35m\27[K-Wuninitialized\27[m\27[K]\
+   13 |         size = shape[0] * shape[1] * \27[01;35m\27[Kshape[2]\27[m\27[K * shape[3];\
+      |                                      \27[01;35m\27[K~~~~~~~^\27[m\27[K\
+\27[01m\27[K22_class_template/main.cpp:13:56:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[K‘\27[01m\27[K*this.Tensor4D<int>::shape[3]\27[m\27[K’ is used uninitialized [\27[01;35m\27[K-Wuninitialized\27[m\27[K]\
+   13 |         size = shape[0] * shape[1] * shape[2] * \27[01;35m\27[Kshape[3]\27[m\27[K;\
+      |                                                 \27[01;35m\27[K~~~~~~~^\27[m\27[K\
+\27[01m\27[K22_class_template/main.cpp:\27[m\27[K In constructor ‘\27[01m\27[KTensor4D<T>::Tensor4D(const unsigned int*, const T*) [with T = float]\27[m\27[K’:\
+\27[01m\27[K22_class_template/main.cpp:13:23:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[K‘\27[01m\27[K*this.Tensor4D<float>::shape[0]\27[m\27[K’ is used uninitialized [\27[01;35m\27[K-Wuninitialized\27[m\27[K]\
+   13 |         size = \27[01;35m\27[Kshape[0]\27[m\27[K * shape[1] * shape[2] * shape[3];\
+      |                \27[01;35m\27[K~~~~~~~^\27[m\27[K\
+\27[01m\27[K22_class_template/main.cpp:13:34:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[K‘\27[01m\27[K*this.Tensor4D<float>::shape[1]\27[m\27[K’ is used uninitialized [\27[01;35m\27[K-Wuninitialized\27[m\27[K]\
+   13 |         size = shape[0] * \27[01;35m\27[Kshape[1]\27[m\27[K * shape[2] * shape[3];\
+      |                           \27[01;35m\27[K~~~~~~~^\27[m\27[K\
+\27[01m\27[K22_class_template/main.cpp:13:45:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[K‘\27[01m\27[K*this.Tensor4D<float>::shape[2]\27[m\27[K’ is used uninitialized [\27[01;35m\27[K-Wuninitialized\27[m\27[K]\
+   13 |         size = shape[0] * shape[1] * \27[01;35m\27[Kshape[2]\27[m\27[K * shape[3];\
+      |                                      \27[01;35m\27[K~~~~~~~^\27[m\27[K\
+\27[01m\27[K22_class_template/main.cpp:13:56:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[K‘\27[01m\27[K*this.Tensor4D<float>::shape[3]\27[m\27[K’ is used uninitialized [\27[01;35m\27[K-Wuninitialized\27[m\27[K]\
+   13 |         size = shape[0] * shape[1] * shape[2] * \27[01;35m\27[Kshape[3]\27[m\27[K;\
+      |                                                 \27[01;35m\27[K~~~~~~~^\27[m\27[K\
+\27[01m\27[K22_class_template/main.cpp:\27[m\27[K In constructor ‘\27[01m\27[KTensor4D<T>::Tensor4D(const unsigned int*, const T*) [with T = double]\27[m\27[K’:\
+\27[01m\27[K22_class_template/main.cpp:13:23:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[K‘\27[01m\27[K*this.Tensor4D<double>::shape[0]\27[m\27[K’ is used uninitialized [\27[01;35m\27[K-Wuninitialized\27[m\27[K]\
+   13 |         size = \27[01;35m\27[Kshape[0]\27[m\27[K * shape[1] * shape[2] * shape[3];\
+      |                \27[01;35m\27[K~~~~~~~^\27[m\27[K\
+\27[01m\27[K22_class_template/main.cpp:13:34:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[K‘\27[01m\27[K*this.Tensor4D<double>::shape[1]\27[m\27[K’ is used uninitialized [\27[01;35m\27[K-Wuninitialized\27[m\27[K]\
+   13 |         size = shape[0] * \27[01;35m\27[Kshape[1]\27[m\27[K * shape[2] * shape[3];\
+      |                           \27[01;35m\27[K~~~~~~~^\27[m\27[K\
+\27[01m\27[K22_class_template/main.cpp:13:45:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[K‘\27[01m\27[K*this.Tensor4D<double>::shape[2]\27[m\27[K’ is used uninitialized [\27[01;35m\27[K-Wuninitialized\27[m\27[K]\
+   13 |         size = shape[0] * shape[1] * \27[01;35m\27[Kshape[2]\27[m\27[K * shape[3];\
+      |                                      \27[01;35m\27[K~~~~~~~^\27[m\27[K\
+\27[01m\27[K22_class_template/main.cpp:13:56:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[K‘\27[01m\27[K*this.Tensor4D<double>::shape[3]\27[m\27[K’ is used uninitialized [\27[01;35m\27[K-Wuninitialized\27[m\27[K]\
+   13 |         size = shape[0] * shape[1] * shape[2] * \27[01;35m\27[Kshape[3]\27[m\27[K;\
+      |                                                 \27[01;35m\27[K~~~~~~~^\27[m\27[K\
+At global scope:\
+\27[01m\27[Kcc1plus:\27[m\27[K \27[01;36m\27[Knote: \27[m\27[Kunrecognized command-line option ‘\27[01m\27[K-Wno-gnu-line-marker\27[m\27[K’ may have been intended to silence earlier diagnostics\
+"
+}

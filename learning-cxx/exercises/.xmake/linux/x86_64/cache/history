@@ -1,0 +1,7 @@
+{
+    cmdlines = {
+        "xmake run learn 1",
+        "xmake run learn 01",
+        "xmake build learn"
+    }
+}
